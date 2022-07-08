@@ -4,8 +4,6 @@ import { Footer } from './layout/Footer'
 export const Formacion = () => {
   return (
     <div>Formacion
-
-      <Footer/>
     </div>
   )
 }

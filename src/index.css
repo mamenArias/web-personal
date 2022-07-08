@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Edu SA Begginer';
+  src: url(./fonts/EduSABeginner.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(./fonts/RobotoCondensed-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat.ttf) format('truetype');
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FFFFDE;
+  background: #FFFBE7;
 }
 
 code {
@@ -18,6 +31,7 @@ code {
   margin: 0 auto;
 }
 
+/* CSS DEL HEADER */
 .header {
   display: flex;
   justify-content: center;
@@ -43,6 +57,8 @@ code {
   flex-basis: 200px;
   margin-left: 10px;
   font-weight: 400;
+  font-family: Edu SA Begginer;
+  font-size: 26px;
 }
 
 .header nav {
@@ -63,6 +79,7 @@ code {
   font-size: 18px;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: Roboto;
 }
 
 .header li a {
@@ -75,9 +92,46 @@ code {
   color: #FF7396;
 }
 
+.header .active {
+  color: #FF7396;
+  font-size: 20px;
+}
+
+/* CSS DEL CONTENIDO */
+.content {
+  min-height: 400px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* CSS PÁGINA DE INICIO */
+.introduction {
+  display: flex;
+  justify-content: center;
+}
+
+.personal-text {
+  display: block;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 22px;
+}
+
+.personal-photo {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-left: 150px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 5px #E78EA9;
+}
+
+
+/* CSS DEL FOOTER*/
 .footer {
   text-align: center;
   border-top: 2px solid #E78EA9;
   margin-top: 40px;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

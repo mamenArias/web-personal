@@ -50,6 +50,7 @@ code {
   display: block;
   font-size: 75px;
   font-weight: bolder;
+  color: #2E0249 ;
 }
 
 .header .logo h2 {
@@ -117,6 +118,10 @@ code {
   font-size: 22px;
 }
 
+.text-strong {
+  color: #24A19C;
+}
+
 .personal-photo {
   display: block;
   width: 300px;
@@ -130,6 +135,95 @@ code {
   transform: scale(1.2);
 }
 
+/* CSS PÁGINA CONTACTO */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.contact-text {
+  font-family: 'Montserrat';
+  font-size: 30px;
+  color: #2E0249;
+}
+
+.message-hidden,
+.message2-hidden {
+  visibility:collapse;
+}
+
+.message-active,
+.message2-active {
+  visibility: visible;
+  color: #377D71;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.message2-active {
+  color: red;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  padding: 10px;
+  margin-top: 20px;
+  min-width: 350px;
+  border-radius: 5px;
+  font-family: 'Montserrat';
+  font-size: 16px;
+}
+
+input[type='submit'],
+button {
+  background: #22bdb8;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  border: 0px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 5px;
+  transition: all 300ms;
+  width: 150px;
+  box-shadow: 3px 3px 5px #325288;
+}
+
+input[type='submit']:hover,
+button:hover {
+  cursor: pointer;
+  background: #325288;
+  color: white;
+}
+
+.social-networks {
+  display: flex;
+}
+
+.social-icons {
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+  transition: all 300ms;
+}
+
+.social-icons:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 
 /* CSS DEL FOOTER*/
 .footer {

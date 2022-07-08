@@ -89,11 +89,11 @@ code {
 }
 
 .header a:hover {
-  color: #FF7396;
+  color: #f23e6b;
 }
 
 .header .active {
-  color: #FF7396;
+  color: #f23e6b;
   font-size: 20px;
 }
 
@@ -124,6 +124,10 @@ code {
   margin-left: 150px;
   border-radius: 20px;
   box-shadow: 6px 6px 5px #E78EA9;
+}
+
+.personal-photo:hover {
+  transform: scale(1.2);
 }
 
 

@@ -38,7 +38,7 @@ code {
   align-items: center;
   height: 120px;
   border-bottom: 2px solid #E78EA9;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .header .logo{
@@ -46,7 +46,7 @@ code {
   display: flex;
 }
 
-.header .logo span {
+.header .logo .span-normal {
   display: block;
   font-size: 75px;
   font-weight: bolder;
@@ -125,7 +125,7 @@ code {
 .personal-photo {
   display: block;
   width: 300px;
-  height: auto;
+  height: 467px;
   margin-left: 150px;
   border-radius: 20px;
   box-shadow: 6px 6px 5px #E78EA9;
@@ -133,6 +133,60 @@ code {
 
 .personal-photo:hover {
   transform: scale(1.2);
+}
+
+/* CSS PÁGINA DE FORMACIÓN */
+.training {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.training h2 {
+  margin-top: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  color: #06938e;
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-align: center;
+}
+
+.courses {
+  margin-top: 50px;
+}
+
+.centers,
+.platform {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.platform {
+  justify-content: flex-end;
+}
+
+.studies-photo,
+.studies-info,
+.courses-photo,
+.courses-info {
+  margin: 15px;
+}
+
+.studies-photo,
+.courses-photo {
+  width: 200px;
+}
+
+.studies-info,
+.courses-info {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  line-height: 30px;
 }
 
 /* CSS PÁGINA CONTACTO */
@@ -146,8 +200,8 @@ code {
 
 .contact-text {
   font-family: 'Montserrat';
-  font-size: 30px;
-  color: #2E0249;
+  font-size: 37px;
+  color: #06938e;
 }
 
 .message-hidden,
@@ -216,7 +270,8 @@ button:hover {
 .social-icons {
   width: 40px;
   height: auto;
-  margin-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
   transition: all 300ms;
 }
 
@@ -229,7 +284,21 @@ button:hover {
 .footer {
   text-align: center;
   border-top: 2px solid #E78EA9;
-  margin-top: 40px;
+  margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+  .introduction {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 835px) {
+  .header .logo h2,
+  .header .logo .span-normal {
+    visibility: hidden;
+  }
 }

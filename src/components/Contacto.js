@@ -34,8 +34,8 @@ export const Contacto = () => {
       <animated.h2 className='contact-text' style={fallText}>¡Contacta conmigo!</animated.h2>
 
       <form className='contact-form' onSubmit={sendEmail}>
-        <input type='text' placeholder='Nombre y apellidos' name='name' required='true'/>
-        <input type='email' placeholder='Email' name='email' required='true'/>
+        <input type='text' placeholder='Nombre y apellidos' name='name' required={true}/>
+        <input type='email' placeholder='Email' name='email' required={true}/>
         <textarea placeholder='Deja aquí tu mensaje...' name='message'/>
         <p className={send ? 'message-active' : 'message-hidden'}>Mensaje enviado correctamente</p>
         <p className={notSend ? 'message2-active' : 'message2-hidden'}>Ha habido un error al enviar el mensaje.Inténtelo más tarde, por favor</p>

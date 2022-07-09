@@ -1,9 +1,8 @@
 import React from 'react'
-import { Footer } from './layout/Footer'
 
 export const Portfolio = () => {
   return (
-    <div>Portfolio
+    <div>Todos los proeyctos realizados hasta ahora
     </div>
   )
 }

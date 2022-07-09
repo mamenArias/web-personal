@@ -18,7 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #FFFBE7;
+  background: #fffbe7;
 }
 
 code {
@@ -135,34 +135,69 @@ code {
   transform: scale(1.2);
 }
 
-/* CSS PÁGINA DE FORMACIÓN */
-.training {
+/* CSS PÁGINA DE FORMACIÓN Y EXPERIENCIA */
+.training,
+.experience {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.training h2 {
+.training h2,
+.experience h2 {
   margin-top: 0;
+  margin-bottom: 10px;
   font-family: 'Montserrat';
   text-transform: uppercase;
   color: #06938e;
   font-size: 40px;
-  text-decoration: underline;
-  text-decoration-style: dashed;
+  font-weight: 700;
   text-align: center;
 }
 
-.courses {
-  margin-top: 50px;
+.h2-bottom {
+  padding-top: 60px;
+}
+
+.tecnologies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tec-item {
+  width: 300px;
+  text-align: center;
+  margin: 5px;
+}
+
+/*.tec-item img {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  transition: all 300ms;
+}
+
+.tec-item .large{
+  width: 200px;
+}*/
+
+.tec-item img:hover,
+.tec-item .large:hover {
+  transform: scale(1.4);
 }
 
 .centers,
-.platform {
+.platform,
+.accenture,
+.physiotherapy {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 5px;
   justify-content: flex-start;
 }
 
@@ -170,7 +205,7 @@ code {
   justify-content: flex-end;
 }
 
-.studies-photo,
+/*.studies-photo,
 .studies-info,
 .courses-photo,
 .courses-info {
@@ -180,13 +215,20 @@ code {
 .studies-photo,
 .courses-photo {
   width: 200px;
-}
+}*/
 
 .studies-info,
-.courses-info {
+.courses-info,
+.experience-info {
+  margin: 15px;
   font-family: 'Montserrat';
   font-size: 20px;
   line-height: 30px;
+}
+
+.experience-info p {
+  font-size: 17px;
+  margin-top: 0;
 }
 
 /* CSS PÁGINA CONTACTO */
@@ -195,7 +237,6 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -20px;
 }
 
 .contact-text {
@@ -206,12 +247,12 @@ code {
 
 .message-hidden,
 .message2-hidden {
-  visibility:collapse;
+  display: none;
 }
 
 .message-active,
 .message2-active {
-  visibility: visible;
+  display: block;
   color: #377D71;
   font-family: 'Montserrat';
   font-size: 16px;

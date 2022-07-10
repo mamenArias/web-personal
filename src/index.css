@@ -114,8 +114,13 @@ code {
 .personal-text {
   display: block;
   text-align: center;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-size: 22px;
+}
+
+.personal-text h1{
+  font-size: 22px;
+  font-weight: normal;
 }
 
 .text-strong {
@@ -137,7 +142,8 @@ code {
 
 /* CSS PÁGINA DE FORMACIÓN Y EXPERIENCIA */
 .training,
-.experience {
+.experience,
+.portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -146,15 +152,17 @@ code {
 }
 
 .training h2,
-.experience h2 {
+.experience h2,
+.portfolio h2 {
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   text-transform: uppercase;
   color: #06938e;
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+  border-bottom: 2px solid #06938e;
 }
 
 .h2-bottom {
@@ -221,7 +229,7 @@ code {
 .courses-info,
 .experience-info {
   margin: 15px;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -229,6 +237,51 @@ code {
 .experience-info p {
   font-size: 17px;
   margin-top: 0;
+}
+
+/* CSS PÁGINA PORTFOLIO */
+.proyect-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.carousel-large {
+  width: 600px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 10px 3px #ffcfdd;
+}
+
+.carousel-small{
+  width: 600px;
+  margin-right: 20px;
+}
+
+.carousel-small .image-car {
+  width: 200px;
+  margin-left: 35%;
+  box-shadow: 1px 1px 10px 3px #ffcfdd;
+}
+
+.proyect-item .text {
+  width: 40%;
+  font-family: Montserrat, sans-serif;
+  line-height: 150%;
+}
+
+.proyect-item .text h3,
+.proyect-item .text h3 a{
+  color: #f23e6b;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.proyect-item .text p{
+  margin-top: 0;
+  text-align: justify;
 }
 
 /* CSS PÁGINA CONTACTO */
@@ -240,7 +293,7 @@ code {
 }
 
 .contact-text {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-size: 37px;
   color: #06938e;
 }
@@ -254,7 +307,7 @@ code {
 .message2-active {
   display: block;
   color: #377D71;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
@@ -277,17 +330,16 @@ textarea {
   margin-top: 20px;
   min-width: 350px;
   border-radius: 5px;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
 }
 
-input[type='submit'],
-button {
+input[type='submit'] {
   background: #22bdb8;
   color: black;
   font-weight: bold;
   font-size: 18px;
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   border: 0px;
   padding: 15px;
   margin-top: 20px;

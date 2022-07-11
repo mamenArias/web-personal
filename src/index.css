@@ -272,16 +272,27 @@ code {
 }
 
 .proyect-item .text h3,
-.proyect-item .text h3 a{
+.proyect-item .text h3 a {
   color: #f23e6b;
   font-size: 20px;
   text-decoration: none;
   transition: all 300ms;
 }
 
-.proyect-item .text p{
+.proyect-item .text p {
   margin-top: 0;
   text-align: justify;
+}
+
+.proyect-item .text p a {
+  text-decoration: none;
+  color: #f23e6b;
+  font-weight: bold;
+  transition: all 300ms;
+}
+
+.proyect-item .text p a:hover {
+  color: #24A19C;
 }
 
 /* CSS PÁGINA CONTACTO */
@@ -393,5 +404,45 @@ button:hover {
   .header .logo h2,
   .header .logo .span-normal {
     visibility: hidden;
+  }
+
+  .personal-photo {
+    margin-left: 0;
+  }
+
+  .proyect-item .text {
+    width: 90%;
+  }
+
+  /*.header{
+    display: none;
+  }*/
+
+  .training,
+  .experience,
+  .portfolio {
+    display: block;
+  }
+
+  .training h2, 
+  .experience h2, 
+  .portfolio h2 {
+    font-size: 28px;
+  }
+
+  .tec-item {
+    width: 200px;
+  }
+
+  .content{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media (max-width: 450px){
+  .carousel-large {
+    width: 300px;
+    
   }
 }

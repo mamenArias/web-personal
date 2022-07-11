@@ -160,10 +160,10 @@ export const Portfolio = () => {
               <img src={puerta} alt='Final Pantalla'></img>
             </div>
             <div className='image-car'>
-              <img src={escenario2} alt='Segundo escenario'></img>
+              <img src={enemigo2} alt='Tipo de enemigo'></img>
             </div>
             <div className='image-car'>
-              <img src={enemigo2} alt='Tipo de enemigo'></img>
+              <img src={escenario2} alt='Segundo escenario'></img>
             </div>
             <div className='image-car'>
               <img src={escenario3} alt='Tercer escenario'></img>

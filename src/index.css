@@ -248,6 +248,15 @@ code {
   margin-bottom: 30px;
 }
 
+hr {
+  width: 70%;
+  height: 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #F6C6EA;
+  border: 0;
+}
+
 .carousel-large {
   width: 600px;
   margin-right: 20px;
@@ -291,7 +300,8 @@ code {
   transition: all 300ms;
 }
 
-.proyect-item .text p a:hover {
+.proyect-item .text p a:hover,
+.proyect-item .text h3 a:hover {
   color: #24A19C;
 }
 
@@ -406,6 +416,11 @@ button:hover {
     visibility: hidden;
   }
 
+  .centers,
+  .platform {
+    display: block;
+  }
+
   .personal-photo {
     margin-left: 0;
   }
@@ -414,9 +429,9 @@ button:hover {
     width: 90%;
   }
 
-  /*.header{
+  .header{
     display: none;
-  }*/
+  }
 
   .training,
   .experience,
@@ -441,8 +456,12 @@ button:hover {
 }
 
 @media (max-width: 450px){
-  .carousel-large {
+  .carousel-large,
+  .carousel-small {
     width: 300px;
-    
+  }
+
+  .carousel-small .image-car{
+    margin-left: 17%;
   }
 }

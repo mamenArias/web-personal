@@ -59,6 +59,8 @@ export const Portfolio = () => {
           </div>
         </article>
 
+        <hr/>
+
         <article className='proyect-item'>
           <Carousel className='carousel-large' autoPlay interval={5000} infiniteLoop showThumbs={false}>
             <div>
@@ -83,6 +85,8 @@ export const Portfolio = () => {
           </div>
         </article>
 
+        <hr/>
+
         <article className='proyect-item'>
           <div className='carousel-large'>
             <ReactPlayer width='100%' height='100%' url='https://www.youtube.com/watch?v=6FTLyHbB1kI' loop={true} muted={true}/>
@@ -98,6 +102,8 @@ export const Portfolio = () => {
             <p>Nosotros sólo nos encargamos del código. Los fondos, los personajes y la música son de la plataforma itch.io.</p>
           </div>
         </article>
+
+        <hr/>
 
         <article className='proyect-item'>
           <Carousel className='carousel-small' autoPlay interval={5000} infiniteLoop showThumbs={false}>
@@ -130,6 +136,8 @@ export const Portfolio = () => {
             </p>
           </div>
         </article>
+
+        <hr/>
 
         <article className='proyect-item'>
           <Carousel className='carousel-large' autoPlay interval={5000} infiniteLoop showThumbs={false}>
@@ -179,6 +187,8 @@ export const Portfolio = () => {
             </p>
           </div>
         </article>
+
+        <hr/>
 
         <article className='proyect-item'>
           <div className='carousel-large'>

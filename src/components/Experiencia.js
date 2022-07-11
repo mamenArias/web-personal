@@ -2,7 +2,7 @@ import React from 'react'
 import accenture from '../media/accenture.png'
 import fisio from '../media/fisioterapia.png'
 import {StyleSheet, css} from 'aphrodite'
-import { slideInLeft, tada } from 'react-animations'
+import { slideInLeft, fadeIn } from 'react-animations'
 import android from '../media/logos/androidstudio.png'
 import code from '../media/logos/code.png'
 import csslogo from '../media/logos/css.png'
@@ -34,8 +34,8 @@ export const Experiencia = () => {
       width: '200px',
       margin: '15px'
     },
-    tada: {
-      animationName: [tada],
+    fadeIn: {
+      animationName: [fadeIn],
       animationDuration: '1s'
     },
     tecItem: {
@@ -69,61 +69,61 @@ export const Experiencia = () => {
       <h2 className='h2-bottom'>- TECNOLOGÍAS Y SOFTWARES -</h2>
       <section className='tecnologies'>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={java} alt='Java' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={java} alt='Java' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)}src={htmllogo} alt='HTML5' />
+          <img className={css(styles.fadeIn, styles.tecItem)}src={htmllogo} alt='HTML5' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={csslogo} alt='CSS3' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={csslogo} alt='CSS3' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={mysql} alt='MySQL' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={mysql} alt='MySQL' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={csharp} alt='C#' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={csharp} alt='C#' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={kotlin} alt='Kotlin' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={kotlin} alt='Kotlin' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={javafx} alt='JavaFX' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={javafx} alt='JavaFX' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={javaswing} alt='Java Swing' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={javaswing} alt='Java Swing' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={oracle} alt='SQL Oracle' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={oracle} alt='SQL Oracle' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={code} alt='Visual Studio Code' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={code} alt='Visual Studio Code' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={vstudio} alt='Visual Studio' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={vstudio} alt='Visual Studio' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={eclipse} alt='Eclipse' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={eclipse} alt='Eclipse' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={netbeans} alt='Netbeans' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={netbeans} alt='Netbeans' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={android} alt='Android Studio' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={android} alt='Android Studio' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={gitlab} alt='GitLab' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={gitlab} alt='GitLab' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={github} alt='GitHub' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={github} alt='GitHub' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={salesforce} alt='Salesforce' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={salesforce} alt='Salesforce' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItemLarge)} src={apex} alt='Salesforce Apex' />
+          <img className={css(styles.fadeIn, styles.tecItemLarge)} src={apex} alt='Salesforce Apex' />
         </article>
         <article className='tec-item'>
-          <img className={css(styles.tada, styles.tecItem)} src={unity} alt='Unity' />
+          <img className={css(styles.fadeIn, styles.tecItem)} src={unity} alt='Unity' />
         </article>
       </section>
 

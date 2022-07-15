@@ -27,7 +27,7 @@ export const Inicio = () => {
               y estudiar algo que siempre me había gustado desde pequeñita: <strong className='text-strong'> Informática. </strong><br/><br/>
               Me apunté al CFGS de <strong className='text-strong'> Desarrollo de Aplicaciones Multiplataforma</strong> y puedo decir que fue la mejor decisión que tomé.
               Quiero trabajar en el mundo del Desarrollo y, por supuesto, no pienso dejar de formarme, ya que creo que hay un mundo enorme por descubrir
-              dentro de la programación.
+              dentro de la <strong className='text-strong'>programación</strong>.
             </animated.p>
         </section>
         <animated.img className='personal-photo' src={photo} alt='Foto de perfil' style={{opacity, transition: '500ms'}}></animated.img>

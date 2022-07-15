@@ -109,10 +109,6 @@ code {
   display: none;
 }
 
-.hamburger-hide{
-  display: none;
-}
-
 .hamburger:hover {
   background-color: #f23e6b;
 }

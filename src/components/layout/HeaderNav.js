@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import React, {useState} from 'react'
+import {NavLink} from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {} from '@fortawesome/fontawesome-free-solid'
 import logo from './logo-personal.png'
 import logoAncho from './logo-ancho.png'
 
@@ -12,8 +13,8 @@ export const HeaderNav = () => {
     <header className='header'>
         
         <nav className='navigation'>
-        <img className='logo-pequeño' src={logo} alt='Logo personal'></img>
-        <img className='logo-ancho' src={logoAncho} alt='Logo personal'></img>
+            <img className='logo-pequeño' src={logo} alt='Logo personal'></img>
+            <img className='logo-ancho' src={logoAncho} alt='Logo personal'></img>
             <button className='hamburger' onClick={() => {
                 setIsNavExpanded(!isNavExpanded);
             }}>
@@ -39,8 +40,8 @@ export const HeaderNav = () => {
                     </li>
                 </ul>
             </div>
+            
         </nav>
-
     </header>
   )
 }
